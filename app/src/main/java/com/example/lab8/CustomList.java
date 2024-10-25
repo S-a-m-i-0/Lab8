@@ -59,7 +59,7 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     /**
-     * Checks if a city is p[resent in the list
+     * Checks if a city is present in the list
      */
     public void delete(City city) {
         if (cities.contains(city)) {
@@ -68,12 +68,12 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException();
         }
     }
-//
-//    /**
-//     * counts the number of city in the list
-//     */
-//    public int countCities() {
-//        return cities.size();
-//    }
+
+    /**
+     * counts the number of city in the list
+     */
+    public int countCities() {
+        return cities.size();
+    }
 
 }
