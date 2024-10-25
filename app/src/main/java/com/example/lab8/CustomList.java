@@ -57,17 +57,17 @@ public class CustomList extends ArrayAdapter<City> {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
-//
-//    /**
-//     * Checks if a city is p[resent in the list
-//     */
-//    public void delete(City city) {
-//        if (cities.contains(city)) {
-//            cities.remove(city);
-//        } else {
-//            throw new IllegalArgumentException();
-//        }
-//    }
+
+    /**
+     * Checks if a city is p[resent in the list
+     */
+    public void delete(City city) {
+        if (cities.contains(city)) {
+            cities.remove(city);
+        } else {
+            throw new IllegalArgumentException();
+        }
+    }
 //
 //    /**
 //     * counts the number of city in the list
